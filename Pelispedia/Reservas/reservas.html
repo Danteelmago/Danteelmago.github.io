@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylereservas.css">
+    </head>
+    <body>
+        <a href="../Logeado/logeado.html">Volver a inicio</a>
+        <div class="fondo">
+            <form action="../Findereserva/Fin.html">
+                <fieldset>
+                    <legend>Elige un Shopping</legend>
+                    <select name="Shopping" required>
+                        <option label="Elige un cine"></option>
+                        <option value="NC">Nuevo Centro</option>
+                        <option value="XXX">Tres Cruces</option>
+                        <option value="PS">Portones Shopping</option>
+                        <option value="PC">Punta Carretas</option>
+                        <option value="MS">Montevideo Shopping</option>
+                    </select>
+        </fieldset>
+        <fieldset>
+            <legend>Fecha</legend>
+            <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend>Titulo</legend>
+            <select name="Title" id="" required>
+                <option label="Elige una Pelicula"></option>
+                <option value="SH">Shrek</option>
+                <option value="S">Spiderman</option>
+                <option value="VF">Volver al Futuro</option>
+                <option value="SC">Scarface</option>
+                <option value="CS">Cars</option>
+                <option value="LS">Los Simpsons</option>
+                <option value="AP">Antes de Partir</option>
+                <option value="IT">IT</option>
+                <option value="AT0">Antes de Ti</option>
+                <option value="AR">Arrow</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Funcion</legend>
+            <select name="Funcion" id="" required>
+                <option label="Elige un horario">
+                    <option value="1era">17:00</option>
+                    <option value="2da">18:15</option>
+                    <option value="3era">19:00</option>
+                    <option value="4ta">20:30</option>
+                    <option value="5ta">21:45</option>
+                    <optgroup label="Funciones Trasnoche" label>
+                        <option value="6ta">22:30</option>
+                        <option value="7tima">23:30</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Cantidad de entradas</legend>
+                <input type="number" required>
+            </fieldset>
+            <button>Confirmar Reserva</button>
+        </div>
+    </form>
+    
+</body>
+    
+</html>

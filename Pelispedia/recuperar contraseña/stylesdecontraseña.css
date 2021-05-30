@@ -1,0 +1,20 @@
+Body{
+    font-family: 'Zen Dots', cursive;
+    background-color: rgb(41, 39, 39);
+}
+a {text-decoration: none;}
+.insert{
+    text-align: center;
+}
+a{
+    color: rgb(255, 255, 255);
+    border: solid 10px;
+    border-radius: 10%;
+    border-color: rgb(58, 3, 255);
+    background-color: rgb(58, 3, 255);
+}
+.pasos{
+    color: white;
+    text-align: center;
+    margin-top: 18%;
+}
