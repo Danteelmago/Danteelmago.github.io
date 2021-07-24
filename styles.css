@@ -200,7 +200,7 @@ textarea{
     padding-right: 219px;
     padding-left: 153px;
 }
-@media only screen and (max-width : 425px){
+@media screen and (max-width : 425px){
         .medium-column{
             display: none;
         }
@@ -257,7 +257,7 @@ textarea{
             margin: 0;
         }
     }
-    @media only screen and (max-width: 768px) and (min-width: 375px){
+    @media screen and (max-width: 768px) and (min-width: 375px){
         .conform img{
             text-align: center;
             width: 100%;
