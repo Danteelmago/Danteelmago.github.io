@@ -169,6 +169,7 @@ li{
     text-align: center;
 }
 .quejas h1{
+    width: 100%;
     margin-left: 1%;
     font-family: -webkit-body;
 }
@@ -263,3 +264,70 @@ textarea{
             width: 100%;
         }
     }
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .medium-column{
+        width: 70%;
+    }
+    .nav .search{
+        margin-left: 2em;
+    }
+    .conform{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .login{
+        margin-left: 0;
+    }
+    .registrar{
+        margin-left: 0;
+    }
+    .form{
+        width: 25%;
+    }
+    .quejas h1{
+        width: 100%;
+        margin-left: 5em;
+    }
+    .boton textarea{
+        width: 50%;
+        margin-left: 13em;
+    }
+    .boton button{
+        width: 51%;
+        margin-left: 13em;
+    }
+    .icons{
+      width: 50%;
+      margin-left: 16em;
+    }
+}
+@media screen and (min-width : 1024px) and (max-width: 1024px){
+    .conform{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .form{
+        width: 18%
+    }
+    .login{
+        margin-left: 0;
+    }
+    .registrar{
+        margin-left: 0;
+    }
+    .quejas{
+        margin-left: 7em;
+    }
+    .boton{
+        width: 100%;
+        margin-left: 6em;
+    }
+    .boton button{
+        width: 50.7%;
+    }
+    .icons{
+        margin-left: 25em;
+    }
+}
