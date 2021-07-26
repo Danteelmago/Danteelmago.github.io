@@ -1,18 +1,16 @@
 body{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #224A5F;
     margin: 0px;
 }
 a {text-decoration: none;}
 .right-column a{
     font-family: 'Orbitron', sans-serif;
-    float: left;
-    font-size: 110%;
+    font-size: 100%;
     color: rgb(255, 255, 255);
     margin-right: 1px;
 
-}
-img{
-    margin-block: 5%;
 }
 div{
 	font-family: 'Dela Gothic One', cursive;
@@ -25,37 +23,35 @@ div{
      display: inline-block;
    }
 .box{
+    display: flex;
 	text-align: center;
 }
 .search{
-    float: left;
     width: 40%;
 }
 .button{
-    float: left;
     width: 50%;
 }
 
 .first-column{
+    display: flex;
     width: 10%;
-    float: left;
 }
-
 .medium-column{
+    display: flex;
     width: 29%;
-    float: left;
 }
 
 .right-column{
+    display: flex;
     width: 687px;
-    float: left;
     padding-top: 0%;
    
 }
 .nav{
+    display: flex;
     width: 100%;
-    float: left;
-    background-color: #3A86AC;;
+    background-color: #3A86AC;
 }
 .right-column ul{
     margin-block-start: 0em;
@@ -72,12 +68,17 @@ div{
     width: 100%;
     margin-top: 4px;
 }
+.first-column{
+    display: flex;
+}
 .first-column a{
     font-family: 'Orbitron', sans-serif;
-    float: left;
-    font-size: 140%;
+    font-size: 100%;
     color: rgb(255, 255, 255);
     margin-left: 5px;
+}
+.medium-column{
+    margin-left: 1em;
 }
 .medium-column a{
     background-color: #224A5F;
@@ -86,7 +87,11 @@ div{
     border: solid 3px;
     border-color: white;
 }
+.right-column{
+    margin-left: 3em;
+}
 .deslogeo a{
+    margin-right: 1em;
     color: black;
     background-color: white;
     margin-top: 10%;
@@ -95,7 +100,7 @@ div{
     width: 46%;
 }
 .box{
-    float: left;
+    display: flex;
     border: solid 3px;
     border-radius: 15%;
     background-color: #639cbd;
@@ -108,17 +113,14 @@ div{
     border: solid;
     border-radius: 65%;
     display: inline;
-    float: left;
     margin-top: 1%;
 }
 .box p{
-    float: left;
     margin-left: 2%;
     display: inline;
     padding-right: 22%
 }
 .reservas{
-    float: right;
     padding-right: 5%;
     border: solid;
     background-color: #bb991b;
@@ -126,14 +128,17 @@ div{
 .reservas img{
     display: inline;
     width: 13%;
-    float: right;
     padding-right: 8%;
+}
+.cartelera{
+    width: 100%;
+    height: 10%;
 }
 .cartelera h1{
     color: rgb(163, 143, 29);
     text-align: center;
     margin-top: 1px;
-    padding-top: 20%;
+    padding-top: 3%;
     border: solid;
     background-color:#247585;
 }
@@ -144,7 +149,7 @@ div{
     padding: 3px;
 }
 .table{
-    float: left;
+    display: flex;
     width: 100%;
     margin-left: 33%;
     margin-top: 2%;
@@ -169,3 +174,29 @@ div{
 .table button{
     margin-left: 10px;
 }
+@media screen and (max-width : 425px){
+    .nav{
+        width: 100%;
+        display: flex;
+    }
+    .medium-column{
+        margin-left: 5em;
+        width: 65%;
+    }
+    .medium-column input{
+        width: 8em
+    }
+    .right-column ul{
+        display: none;
+    }
+    .deslogeo a{
+        width: 1em
+    }
+    .box{
+        margin-right: 0;
+        margin-left: 0;
+        flex-direction: column-reverse;
+        width: 35%;
+        height: 8em;
+    }
+}    
