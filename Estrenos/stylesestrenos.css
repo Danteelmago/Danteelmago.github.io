@@ -48,7 +48,9 @@ img{
     }
     .poster img{
         width: 50%;
-        margin-left: 3em;
+    }
+    a{
+        text-align: center;
     }
 
 }

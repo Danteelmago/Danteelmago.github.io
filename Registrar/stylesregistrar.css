@@ -5,16 +5,27 @@ body{
     background-color: black;
 }
 a {text-decoration: none;}
-div{
+fieldset{
     margin-bottom: 3%;
 }
 .button{
     font-size: 28px;
-    margin-left: 46%;
     width: 8%;
     border-radius: 15%;
     background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button a{
     color: white;
+}
+@media screen and (max-width : 425px){
+    .button{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .button{
+        width: 12%;
+    }
 }

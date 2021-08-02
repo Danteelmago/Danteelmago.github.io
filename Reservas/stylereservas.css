@@ -1,5 +1,8 @@
 body{
-    background-color: #224A5F;;
+    background-color: hsl(201, 47%, 25%);;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 a {text-decoration: none;}
 a{
@@ -9,13 +12,13 @@ a{
     border-radius: 10%;
     background-color: teal;
     font-size: 20px;
+    height: 1em;
 }
 .fondo{
     background: #588484;
     padding: 20px;
     width: 40%;
     text-align: center;
-    margin-left: 30%;
     font-size: 37px;
 
 }
@@ -25,4 +28,10 @@ a{
 .fondo a{
     background-color: rgb(14, 150, 44);
 }
+@media screen and (max-width : 425px){
+    .fondo{
+        width: 100%;
+    }
+}
+
 
